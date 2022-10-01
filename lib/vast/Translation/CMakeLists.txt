@@ -35,7 +35,14 @@ target_link_libraries( FromSourceParser
         clangSerialization
         clangTooling
 
+        MLIRBufferizationTransformOps
+        MLIREmitCDialect
+        MLIRLinalgTransformOps
+        MLIRMLProgramDialect
+        MLIRSCFTransformOps
+        MLIRShapeOpsTransforms
         MLIRSupport
+        MLIRTensorInferTypeOpInterfaceImpl
 
         vast_settings
         vast_translation_api
